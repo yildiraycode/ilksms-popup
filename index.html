@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ilksms Pop-up</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <div class="popup-overlay" id="popupOverlay">
+    <div class="popup-content">
+      <button class="close-btn" id="closeBtn">×</button>
+      
+      <!-- Ürün Kartları -->
+      <div class="product-grid">
+        <a href="#eokul-randevu" class="product-card">
+          <i class="fas fa-calendar-alt"></i>
+          <h3>eOkul Randevu</h3>
+          <p>Öğretmen Veli randevu sistemi</p>
+        </a>
+        <a href="#ikelebek-sistemi" class="product-card">
+          <i class="fas fa-butterfly"></i>
+          <h3>iKelebek Sistemi</h3>
+          <p>Kelebek sınav dağıtımı sistemi</p>
+        </a>
+        <a href="#ikilit-akilli-tahta" class="product-card">
+          <i class="fas fa-chalkboard"></i>
+          <h3>iKilit Akıllı Tahta</h3>
+          <p>Akıllı tahta kilidi ve duyuru yönetimi</p>
+        </a>
+        <a href="#iders-programi" class="product-card">
+          <i class="fas fa-table"></i>
+          <h3>iDers Programı</h3>
+          <p>Haftalık ders programı hazırlama</p>
+        </a>
+        <a href="#eokul-yoklama" class="product-card">
+          <i class="fas fa-check-square"></i>
+          <h3>eOkul Yoklama</h3>
+          <p>Ders bazlı öğrenci yoklaması</p>
+        </a>
+        <a href="#okulum-mobil" class="product-card">
+          <i class="fas fa-mobile-alt"></i>
+          <h3>Okulum Mobil</h3>
+          <p>Okula özel mobil uygulama</p>
+        </a>
+      </div>
+
+      <!-- Beni Arayın Formu -->
+      <div class="form-section">
+        <h3>Beni Arayın</h3>
+        <form id="contactForm">
+          <input type="text" id="name" placeholder="Ad Soyad" required>
+          <input type="tel" id="phone" placeholder="Telefon Numarası" required>
+          <label>
+            <input type="checkbox" id="captcha" required>
+            Robot değilim
+          </label>
+          <button type="submit">Beni Arayın</button>
+        </form>
+        <p id="formMessage" style="display: none;"></p>
+      </div>
+
+      <!-- Bir Daha Gösterme -->
+      <label class="dont-show-again">
+        <input type="checkbox" id="dontShowAgain"> Bir daha gösterme
+      </label>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3.2.0/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
