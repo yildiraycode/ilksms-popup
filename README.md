@@ -3,6 +3,10 @@
 ## Proje Özeti
 
 Bu proje, ilksms web sitesi için etkileşimli bir pop-up tasarımı ve prototipini geliştirmek amacıyla oluşturulmuştur. Pop-up, kullanıcıya 6 ürün kartı sunar ve bir "Beni Arayın" formu içerir. Kullanıcılar formu doldurarak iletişim bilgilerini paylaşabilir ve bu bilgiler belirlenen bir e-posta adresine gönderilir. Proje, temel web teknolojileri (HTML, CSS, JavaScript) kullanılarak geliştirilmiş, EmailJS ile form gönderimi sağlanmış ve kullanıcı doğrulaması için basit bir checkbox kullanılmıştır.
+![{DBC697D5-FDF6-4CFE-A69F-247E632137BD}](https://github.com/user-attachments/assets/562126c7-bbab-40ff-a60d-6e34de873f28)
+
+![{FFD5BFDA-F183-45D2-AB28-6D506A92EC00}](https://github.com/user-attachments/assets/e8062444-c6d8-4114-ad18-886579985b05)
+
 
 ## Projenin Amacı
 
